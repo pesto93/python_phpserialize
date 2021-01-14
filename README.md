@@ -1,2 +1,2 @@
 # python_phpserialize
-This project uses a a port of the serialize and unserialize functions of php to python using a lib phpserialize. 
+This project uses a a port of the serialize and unserialize functions of php to python using a lib phpserialize. it also demostrates mainly how to unserialize a php serialized data with/without PHP classes by automatically mapping the phpobject class arrays as dictionary in python and transforming this unserialized PHP to json which can be stored on a db or anywhere of choice. 
