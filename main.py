@@ -74,7 +74,7 @@ mydb = mysql.connector.connect(
     user="",
     password="",
     database="",
-    port=3365,
+    port=3306,
     use_unicode=True,
     charset='utf8',
 )
