@@ -40,7 +40,7 @@ def insert_data(data: list):
 def _parse_unserialize(data: bytes):
     if len(data) > 0:
         output_data = unserialize(
-            ada,
+            data,
             object_hook=ChainMap,
         )
         # ======================================
